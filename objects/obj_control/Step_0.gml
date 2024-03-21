@@ -7,6 +7,8 @@ if(gameover){
 		room_restart();
 		global.player_score = 0;
 		global.player_lives = 3;
+		audio_play_sound(snd_Click, 1, false);
+
 	}
 }
 
